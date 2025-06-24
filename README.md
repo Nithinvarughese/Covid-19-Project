@@ -21,14 +21,21 @@ It covers the full analytics workflow—from raw data cleaning and SQL querying 
 
 ## 🗂️ Project Structure
 
-- 📁 **Data Folder:**  
-  Contains the cleaned CSV dataset used for analysis.
+- 📁 **[Data Folder](./data/):**  
+  Contains the cleaned CSV dataset used for analysis.  
+  - 📄 [covid19_cleaned.csv](./data/covid19_cleaned.csv)
 
-- 📁 **SQL Folder:**  
-  Contains all the SQL queries used for data exploration and analysis.
+- 📁 **[SQL Folder](./sql/):**  
+  Contains all the SQL queries used for data exploration and analysis.  
+  - 📄 [queries.sql](./sql/sql_queries1.sql)
 
-- 📁 **Dashboard Folder:**  
-  Contains the Power BI file showcasing interactive visuals and dashboards.
+- 📁 **[Dashboard Folder](./dashboard/):**  
+  Contains the Power BI file showcasing interactive visuals and dashboards.  
+  - 📄 [covid19_dashboard.pbix](./dashboard/covid19_visuals.pbix)
+
+- 📁 **[Images Folder](./images/):**  
+  Contains screenshots and previews of the Power BI dashboard.  
+  - 📄 [dashboard_preview.png](./images/covid19_visuals_screenshot.jpg)
 
 ---
 
@@ -43,25 +50,25 @@ It covers the full analytics workflow—from raw data cleaning and SQL querying 
 ## 🚀 Getting Started
 
 ### 1️⃣ Data Setup (MySQL)
-- Import `covid19_cleaned.csv` from `/data` into a MySQL table  
-- Use the schema and queries provided in `/sql/queries.sql`  
+- Import [`covid19_cleaned.csv`](./data/covid19_cleaned.csv) from the [data folder](./data/) into a MySQL table  
+- Use the schema and queries provided in [`sql_queries1.sql`](./sql/sql_queries1.sql) inside the [SQL folder](./sql/)  
 - Run the SQL queries to generate summarized data for visualization
 
 ### 2️⃣ Power BI Dashboard
-- Open `covid19_dashboard.pbix` in Power BI Desktop (found under `/dashboard`)
-- Set up a connection to your local SQL database
+- Open [`covid19_visuals.pbix`](./dashboard/covid19_visuals.pbix) in Power BI Desktop (found under the [dashboard folder](./dashboard/))  
+- Set up a connection to your local SQL database  
 - Refresh the data and explore the interactive visuals
 
 ---
 
 ## 🎨 Power BI Visuals
 
-| Visual Type      | Description                                                   |
-|------------------|---------------------------------------------------------------|
-| 🌍 **Map Visual**    | Geospatial view of confirmed cases by country               |
-| 📈 **Line Chart**    | Daily trend of confirmed cases worldwide                    |
-| 📊 **Bar Chart**     | Top 10 countries by total confirmed cases                   |
-| 🔢 **Card Visuals**  | Display global totals: confirmed, deaths, recoveries        |
+| Visual Type           | Description                                                    |
+|-----------------------|----------------------------------------------------------------|
+| 🌍 **Map Visual**    | Geospatial view of confirmed cases by country             |
+| 📈 **Line Chart**    | Daily trend of confirmed cases worldwide                  |
+| 📊 **Bar Chart**     | Top 10 countries by total confirmed cases                 |
+| 🔢 **Card Visuals**  | Display global totals: confirmed, deaths, recoveries      |
 
 ---
 
