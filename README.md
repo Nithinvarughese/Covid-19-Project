@@ -19,18 +19,16 @@ It covers the full analytics workflow—from raw data cleaning and SQL querying 
 
 ---
 
-## 📁 Project Structure
+## 🗂️ Project Structure
 
-covid19-data-analysis/
-├── data/
-│ └── covid19_cleaned.csv # Cleaned dataset for SQL import
-├── sql/
-│ └── queries.sql # SQL scripts for analytical queries
-├── dashboard/
-│ └── covid19_dashboard.pbix # Power BI dashboard file
-├── images/
-│ └── dashboard_preview.png # Preview of Power BI dashboard
-└── README.md # Project documentation
+- 📁 **Data Folder:**  
+  Contains the cleaned CSV dataset used for analysis.
+
+- 📁 **SQL Folder:**  
+  Contains all the SQL queries used for data exploration and analysis.
+
+- 📁 **Dashboard Folder:**  
+  Contains the Power BI file showcasing interactive visuals and dashboards.
 
 ---
 
